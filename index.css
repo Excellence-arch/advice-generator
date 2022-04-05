@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.bg-color {background-color: rgb(31,39,50);}
+.colors {color: rgb(72,189,138);}
+.divColor {
+    background-color: rgb(49,59,71); 
+    height: 350px; 
+    width: 550px;
+    margin-left: 450px;
+}
+
+.font-28 {
+    font-size: 28px;
+}
+
+.fonts {
+    font-family: Manrope;
+    font-weight: 800;
+}
+
+#wholeDiv {
+    border-radius: 5%;
+}
+
+.foot {
+    position: fixed;
+    /* background-image:url("./images/pattern-divider-desktop.svg"); */
+    margin-top: -70px;
+    margin-left: 475px;
+    width: 100px;
+}
+
+.img-btn {
+    position:fixed;
+    margin-top: -20px;
+    margin-left: -10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(150, 100%, 66%);
+    border: 0;
+    /* box-shadow: 4px 4px 4px 3px hsl(150, 100%, 66%) !important; */
+
+    /* - Neon Green: hsl(150, 100%, 66%)); */
+}
+
+.img-btn:hover {
+    box-shadow: 2px 2px 10px 2px hsl(150, 100%, 66%);
+    /* background-color: hsl(193, 38%, 86%); */
+}
+
+.his {
+    width: 490px;
+}
+
+@media (max-width: 375px) {
+    .divColor {
+        height: 250px; 
+        width: 300px;
+        margin: 20px;       
+    }
+
+    .img-btn {
+        margin-top: -50px;
+        margin-left: 10px;
+    }
+
+    .his {
+        width: 300px;
+    }
+}
